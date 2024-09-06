@@ -5,9 +5,9 @@
   "author": "Emmanuel Dushime",
   "license": "MIT",
   "scripts": {
-    "start": "node dist/index.js",
-    "dev": "nodemon src/index.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "ts-node-dev src/index.ts",
+    "start": "node dist/index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -20,6 +20,7 @@
     "@types/express": "^4.17.21",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.5.4"
   }
 }
